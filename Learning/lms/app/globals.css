@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Global background */
+body {
+  background: #FFFFFF;
+  background-image: radial-gradient(circle, #FFFFFF 1px, transparent 1px);
+  background-size: 20px 20px;
+  min-height: 100vh;
+}
+
+/* Ensure course containers inherit dot background */
+.os-container, .ls-container {
+  background: transparent !important;
+}
+
+.os-content, .ls-content {
+  background: transparent !important;
+}
+
+/* Remove dot background from course unit pages */
+.no-dot-background {
+  background: #FFFFFF !important;
+  background-image: none !important;
+}
+
+
